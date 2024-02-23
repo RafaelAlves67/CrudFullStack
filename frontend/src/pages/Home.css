@@ -1,0 +1,88 @@
+.home{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.home > h1{
+    margin-bottom: 30px;
+}
+
+
+.form > div {
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form > input {
+    margin-bottom: 20px;
+}
+
+.table{
+    text-align: center;
+    border-top: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table > thead{
+    border-bottom: 1px solid black;
+}
+
+.table > tbody{
+    border-bottom: 1px solid black;
+
+}
+
+/*  MODAl */
+.formModal > div {
+    margin-bottom: 30px;
+}
+
+.formModal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.formModal > input {
+    margin-bottom: 20px;
+}
+
+.button-modal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formModal > h3{
+    text-align: center;
+}
+
+.botao{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    margin-left: 5px;
+}
